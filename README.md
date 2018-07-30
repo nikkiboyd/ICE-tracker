@@ -1,49 +1,52 @@
 # _ICE Breaker_
 
-#### _Tracks ICE raids and alerts users as raids are reported , 7/24/18_
+#### _Multilingual application for tracking, reporting, and alerting users about ICE raids in their local neighborhoods._
 
-#### By _**Kelli McCloskey, Nikki Boyd, Ryan Putman, Devin Mounts & Renee Sarley**_
+#### Developers: _**Kelli McCloskey, Nikki Boyd, Ryan Putman, Devin Mounts & Renee Sarley**_
 
 ## Description
 
-_This application will allow users to record details about ICE raids based on the user's eye witness account. An alert will be sent out to all users with the details and location of the raid._<br>
-_While the initial inspiration for ICE Breaker came from an original idea the functionality of the app Redad Alertas was used as a guide for the functionality of ICE Breaker._<br>
-_Information about Redad Alertas can be found at http://redadalertas.com_
-
+_Our multilingual application allows users to report details about ICE raids in their neighborhoods. Notifications via text message will be delivered to all users; including the raid description and address. Refresh the page to receive live updates on our interactive, user-populated web map that illustrates all reported ICE sightings across the nation. Simply click on the points to learn more about each reporting's specific details. The ticker on the right side of the homepage provides live updates for the most 10 recent reported raid sightings._<br>
 
 ## Setup/Installation Requirements
 
-* _Download project from the GitHub repo here: https://github.com/kellibrooke/ICE-tracker_
-* _Build the database user the ice_tracker.sql file_
+* _1. Clone the master branch of "ICE-tracker" from this repository: https://github.com/nikkiboyd/ICE-tracker_
+* _2. Ensure .NET Core 1.1 is installed on your machine._
+* _3. Ensure Mono is installed on your machine._
+* _4. Run the command `dotnet restore` to refresh packages._
+* _5. Tests can be found in the folder "ICE-tracker.Tests" folder._
+* _6. Import the provided database `ice_tracker.sql` files to MAMP
 
 ## User Stories - MVP
 
-_A User needs to be able to report an ICE raid which will include the location, date, time and a description of the raid._<br>
-_A User needs to be able to see all the reported ICE raids on a map_<br>
-_A User should be able to click on a raid on the map and see the details of the raid_<br>
-_A User needs to be able to get a text message each time an ICE raid is reported._
+_Report an ICE raid which will include the location, date, time and a description of the raid_<br>
+_See all the reported ICE raids on a map_<br>
+_Click on a raid on the map and see the details of the raid_<br>
+_Receive a text message each time an ICE raid is reported_
 
 ## User Stories - Additional features for future implementation
 
-_A User should be able to filter the results on the map to view all raids that have occurred within a specified timeframe_<br>
-_A User should be able to select which cities they would like to receive alerts for._<br>
+_Filter the results on the map to view all raids that have occurred within a specified timeframe_<br>
+_Select which zipcodes they would like to receive alerts for_<br>
 
 ## Known Bugs
 
-_There are currently no known bugs._
+_There are no known bugs at this time._
 
 ## Support and contact details
 
-_Please email with any questions._
+_Please email Nikki Boyd at boyd.nikki@icloud.com with any questions._
 
 ## Technologies Used
 
-* _C Sharp_
+* _C#_
 * _JavaScript_
 * _phpMyAdmin_
 * _mySql_
 * _Twilio Web API_
-
+* _Google Maps API_
+* _Google Geocoder API_
+* _Google Translator API_
 
 ### License
 
