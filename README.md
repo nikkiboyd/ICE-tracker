@@ -1,4 +1,4 @@
-# _ICE Breaker_
+# _ICE Breaker | Track, Report, & Alert Raid Sightings_
 
 #### _Multilingual application for tracking, reporting, and alerting users about ICE raids in their local neighborhoods._
 
