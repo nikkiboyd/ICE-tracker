@@ -15,7 +15,7 @@ _Our multilingual application allows users to report details about ICE raids in 
 * _3. Ensure Mono is installed on your machine._
 * _4. Run the command `dotnet restore` to refresh packages._
 * _5. Tests can be found in the folder "ICE-tracker.Tests" folder._
-* _6. Import the `ice_tracker.sql` database into phpMyAdmin
+* _6. Run server and import the `ice_tracker.sql` database into phpMyAdmin._
 
 ## User Stories - MVP
 
